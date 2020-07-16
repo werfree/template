@@ -1,0 +1,69 @@
+'''~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   _____ ___                     __                 ________  __           __
+  / ___//   | __  ______ _____  / /_____ _____     / ____/ / / /___  _____/ /_
+  \__ \/ /| |/ / / / __ `/ __ \/ __/ __ `/ __ \   / / __/ /_/ / __ \/ ___/ __ \
+ ___/ / ___ / /_/ / /_/ / / / / /_/ /_/ / / / /  / /_/ / __  / /_/ (__  ) / / /
+/____/_/  |_\__, /\__,_/_/ /_/\__/\__,_/_/ /_/   \____/_/ /_/\____/____/_/ /_/
+           /____/
+
+             **************************************************
+                   _  _  ____  ____  ____  ____  ____  ____
+                  / )( \(  __)(  _ \(  __)(  _ \(  __)(  __)
+                  \ /\ / ) _)  )   / ) _)  )   / ) _)  ) _)
+                  (_/\_)(____)(__\_)(__)  (__\_)(____)(____)
+
+            ***************************************************
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'''
+
+# ########## ------ Import ------- ##########
+
+from sys import maxsize, stdin
+from math import log, pow, sqrt, floor, ceil, pi
+from collections import Counter, defaultdict
+from collections import deque as deq
+from functools import lru_cache
+from itertools import permutations as perm
+from itertools import combinations as comb
+from itertools import combinations_with_replacement as combr
+
+# ########## ------ Define -------- #########
+
+INT_MAX = maxsize
+INT_MIN = -INT_MAX
+PI = pi
+MOD = 1000000007
+
+# ########## ------ Input Functions ---- #########
+
+input = stdin.readline
+
+
+def inp():
+    return(int(input()))
+
+
+def inlt():
+    return(list(map(int, input().split())))
+
+
+def insr():
+    s = input()
+    return(list(s[:len(s) - 1]))
+
+
+def invr():
+    return(map(int, input().split()))
+
+
+# ########## ------ Code ------- ##########
+
+
+t = inp()
+while t:
+
+    n = inp()
+    a = inlt()
+
+    t -= 1
