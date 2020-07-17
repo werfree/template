@@ -40,9 +40,9 @@ def invr():
 
 # ########## ------ Code ------- ##########
 
-
 t = inp()
 while t:
+
     n = inp()
     a = inlt()
 
