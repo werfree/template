@@ -43,7 +43,6 @@ def invr():
 
 t = inp()
 while t:
-
     n = inp()
     a = inlt()
 
