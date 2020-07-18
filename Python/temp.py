@@ -1,7 +1,7 @@
 # ########## ------ Import ------- ##########
 
 from sys import maxsize, stdin
-from math import log, pow, sqrt, floor, ceil, pi
+from math import log, pow, sqrt, floor, ceil
 from collections import Counter, defaultdict
 from collections import deque as deq
 from functools import lru_cache
@@ -11,9 +11,8 @@ from itertools import combinations_with_replacement as combr
 
 # ########## ------ Define -------- #########
 
-INT_MAX = maxsize
-INT_MIN = -INT_MAX
-PI = pi
+INF = 2147483647
+PI = 3.141592653589793
 MOD = 1000000007
 
 # ########## ------ Input Functions ---- #########
@@ -39,6 +38,7 @@ def invr():
 
 
 # ########## ------ Code ------- ##########
+
 
 t = inp()
 while t:

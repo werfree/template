@@ -1,1 +1,1 @@
-# Template For CP 
+# Template (CP) for Python
