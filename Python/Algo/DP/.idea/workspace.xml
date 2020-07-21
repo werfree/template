@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="107ec890-52d7-4f7c-9f35-00d06359c666" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1VmwBH85wPlj34j4XGToUQzyb0s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.laddersProblem">
+    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="laddersProblem" type="PythonConfigurationType" factoryName="Python">
+      <module name="DP" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/laddersProblem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.fib" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="107ec890-52d7-4f7c-9f35-00d06359c666" name="Default Changelist" comment="" />
+      <created>1577871440994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577871440994</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577871522284">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577871522284" />
+    <state x="755" y="0" width="781" height="824" key="#laddersProblem" timestamp="1577871695496">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="755" y="0" width="781" height="824" key="#laddersProblem/0.0.1536.824@0.0.1536.824" timestamp="1577871695496" />
+    <state width="1515" height="186" key="GridCell.Tab.0.bottom" timestamp="1577965645460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577965645460" />
+    <state width="1515" height="186" key="GridCell.Tab.0.center" timestamp="1577965645460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577965645460" />
+    <state width="1515" height="186" key="GridCell.Tab.0.left" timestamp="1577965645459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577965645459" />
+    <state width="1515" height="186" key="GridCell.Tab.0.right" timestamp="1577965645460">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577965645460" />
+    <state x="486" y="84" key="SettingsEditor" timestamp="1577873707280">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="486" y="84" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577873707280" />
+    <state x="470" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1577871461070">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577871461070" />
+    <state x="663" y="295" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1577873412131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="663" y="295" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1577873412131" />
+  </component>
+</project>
