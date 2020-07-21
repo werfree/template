@@ -29,6 +29,7 @@ def quary(index, range_l, range_r, left, right):
     mid = (left+right)//2
     leftTree = quary(index*2+1, range_l, range_r, left, mid)
     rightTree = quary(index*2+2, range_l, range_r, mid+1, right)
+
     return min(leftTree, rightTree)
 
 
