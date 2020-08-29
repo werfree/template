@@ -39,11 +39,14 @@ def invr():
 
 # ########## ------ Code ------- ##########
 
+def main():
+    t = inp()
+    while t:
 
-t = inp()
-while t:
+        n = inp()
+        a = inlt()
 
-    n = inp()
-    a = inlt()
+        t -= 1
 
-    t -= 1
+
+main()
