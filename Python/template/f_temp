@@ -22,7 +22,7 @@
 from sys import maxsize, stdin
 from math import log, pow, sqrt, floor, ceil, pi
 from collections import Counter, defaultdict
-from collections import deque as deq
+from collections import deque as dq
 from functools import lru_cache
 from itertools import permutations as perm
 from itertools import combinations as comb

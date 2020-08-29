@@ -4,6 +4,9 @@ input = sys.stdin.readline
 MAX = sys.maxsize
 
 
+# TODO:Build
+
+
 def build(index, left, right):
     if left == right:
         segTree[index] = a[left]
@@ -13,6 +16,9 @@ def build(index, left, right):
     build((index*2)+2, mid+1, right)
     build((index*2)+1, left, mid)
     segTree[index] = min(segTree[(2*index)+1], segTree[(2*index)+2])
+
+
+# TODO:Quary
 
 
 def quary(index, range_l, range_r, left, right):
@@ -29,7 +35,11 @@ def quary(index, range_l, range_r, left, right):
     mid = (left+right)//2
     leftTree = quary(index*2+1, range_l, range_r, left, mid)
     rightTree = quary(index*2+2, range_l, range_r, mid+1, right)
+
     return min(leftTree, rightTree)
+
+
+# TODO:Update
 
 
 def update(index, left, right, i, value):

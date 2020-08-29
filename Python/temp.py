@@ -1,71 +1,71 @@
+'''~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   _____ ___                     __                 ________  __           __
+  / ___//   | __  ______ _____  / /_____ _____     / ____/ / / /___  _____/ /_
+  \__ \/ /| |/ / / / __ `/ __ \/ __/ __ `/ __ \   / / __/ /_/ / __ \/ ___/ __ \
+ ___/ / ___ / /_/ / /_/ / / / / /_/ /_/ / / / /  / /_/ / __  / /_/ (__  ) / / /
+/____/_/  |_\__, /\__,_/_/ /_/\__/\__,_/_/ /_/   \____/_/ /_/\____/____/_/ /_/
+           /____/
+
+             **************************************************
+                   _  _  ____  ____  ____  ____  ____  ____
+                  / )( \(  __)(  _ \(  __)(  _ \(  __)(  __)
+                  \ /\ / ) _)  )   / ) _)  )   / ) _)  ) _)
+                  (_/\_)(____)(__\_)(__)  (__\_)(____)(____)
+
+            ***************************************************
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'''
+
+
+# ########## ------ Import ------- ##########
+
 import sys
+import math
+from collections import Counter, defaultdict
+from collections import deque as deq
+from functools import lru_cache
+from copy import deepcopy
+from pprint import pprint as print
+
+# ########## ------ Define -------- #########
+
+INT_MAX = float("inf")
+INT_MIN = float("-inf")
+
+# ########## ------ Input Functions ---- #########
 
 input = sys.stdin.readline
-MAX = sys.maxsize
 
 
-def build(index, left, right):
-    if left == right:
-        segTree[index] = a[left]
-        return
-
-    mid = (left+right)//2
-    build((index*2)+2, mid+1, right)
-    build((index*2)+1, left, mid)
-    segTree[index] = min(segTree[(2*index)+1], segTree[(2*index)+2])
+def inp():
+    return(int(input()))
 
 
-def quary(index, range_l, range_r, left, right):
-
-    # Completely Inside
-    if range_l <= left and range_r >= right:
-        return segTree[index]
-
-    # Completely Outside
-    if range_l > right or range_r < left:
-        return MAX
-
-    # Overlape
-    mid = (left+right)//2
-    leftTree = quary(index*2+1, range_l, range_r, left, mid)
-    rightTree = quary(index*2+2, range_l, range_r, mid+1, right)
-
-    return min(leftTree, rightTree)
+def inlt():
+    return(list(map(int, input().split())))
 
 
-def update(index, left, right, i, value):
-    if left == right:
-        a[i] = value
-        segTree[index] = value
-        return
-
-    mid = (left+right)//2
-    if i <= mid:
-        update(index*2+1, left, mid, i, value)
-    else:
-        update(index*2+2, mid+1, right, i, value)
-
-    leftT = seg[index*2+1]
-    rightT = seg[index*2+2]
-
-    segTree[index] = min(leftT, rightT)
-
-    seg[index] = [leftEve+rightEve, leftOdd+rightOdd]
+def insr():
+    s = input()
+    return(list(s[:len(s) - 1]))
 
 
-n = int(input())
-a = list(map(int, input().split()))
+def invr():
+    return(map(int, input().split()))
 
-l = 0
-r = n
 
-segTree = [MAX]*(4*r)
+# ########## ------ Code ------- ##########
 
-build(0, l, r-1)
+def main():
+    t = inp()
+    while t:
+        n = insr()
 
-n = int(input())
-while n:
-    # quary 0 index
-    q = list(map(int, input().split()))
-    print(quary(0, q[0], q[1], 0, r-1))
-    n -= 1
+        start = end = 0
+        length = len(n)
+        d = default
+        while end < length:
+
+
+main()
