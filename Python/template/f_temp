@@ -1,28 +1,9 @@
-'''~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-   _____ ___                     __                 ________  __           __
-  / ___//   | __  ______ _____  / /_____ _____     / ____/ / / /___  _____/ /_
-  \__ \/ /| |/ / / / __ `/ __ \/ __/ __ `/ __ \   / / __/ /_/ / __ \/ ___/ __ \
- ___/ / ___ / /_/ / /_/ / / / / /_/ /_/ / / / /  / /_/ / __  / /_/ (__  ) / / /
-/____/_/  |_\__, /\__,_/_/ /_/\__/\__,_/_/ /_/   \____/_/ /_/\____/____/_/ /_/
-           /____/
-
-             **************************************************
-                   _  _  ____  ____  ____  ____  ____  ____
-                  / )( \(  __)(  _ \(  __)(  _ \(  __)(  __)
-                  \ /\ / ) _)  )   / ) _)  )   / ) _)  ) _)
-                  (_/\_)(____)(__\_)(__)  (__\_)(____)(____)
-
-            ***************************************************
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'''
-
 # ########## ------ Import ------- ##########
 
 from sys import maxsize, stdin
-from math import log, pow, sqrt, floor, ceil, pi
+from math import log, pow, sqrt, floor, ceil
 from collections import Counter, defaultdict
-from collections import deque as dq
+from collections import deque as deq
 from functools import lru_cache
 from itertools import permutations as perm
 from itertools import combinations as comb
@@ -30,9 +11,8 @@ from itertools import combinations_with_replacement as combr
 
 # ########## ------ Define -------- #########
 
-INT_MAX = maxsize
-INT_MIN = -INT_MAX
-PI = pi
+INF = 2147483647
+PI = 3.141592653589793
 MOD = 1000000007
 
 # ########## ------ Input Functions ---- #########
