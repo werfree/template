@@ -39,6 +39,8 @@ MOD = 1000000007
 
 input = stdin.readline
 
+def inln():
+    return(input().rstrip("\r\n"))
 
 def inp():
     return(int(input()))
